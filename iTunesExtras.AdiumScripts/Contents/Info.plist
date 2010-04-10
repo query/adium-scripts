@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iTunesExtras</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.alerante.iTunesExtras.scripts</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>20090525</string>
+	<key>CFBundleName</key>
+	<string>iTunesExtras</string>
+	<key>CFBundlePackageType</key>
+	<string>AdIM</string>
+	<key>Scripts</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>discNumber</string>
+			<key>Keyword</key>
+			<string>%_discNumber</string>
+			<key>Title</key>
+			<string>Disc Number</string>
+			<key>prefix Only</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>rating</string>
+			<key>Keyword</key>
+			<string>%_rating</string>
+			<key>Title</key>
+			<string>Rating</string>
+			<key>prefix Only</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>startTime</string>
+			<key>Keyword</key>
+			<string>%_startTime</string>
+			<key>Title</key>
+			<string>Track Start Time</string>
+			<key>prefix Only</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Set</key>
+	<string>iTunes Extras</string>
+</dict>
+</plist>
