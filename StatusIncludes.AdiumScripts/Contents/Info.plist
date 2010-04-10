@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>StatusIncludes</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.alerante.StatusIncludes.scripts</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>20090525</string>
+	<key>CFBundleName</key>
+	<string>StatusIncludes</string>
+	<key>CFBundlePackageType</key>
+	<string>AdIM</string>
+	<key>Scripts</key>
+	<array>
+		<dict>
+			<key>File</key>
+			<string>autoreply</string>
+			<key>Keyword</key>
+			<string>%_includeAutoreply</string>
+			<key>Title</key>
+			<string>Autoreply</string>
+			<key>prefix Only</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>statusMessage</string>
+			<key>Keyword</key>
+			<string>%_includeStatusMessage</string>
+			<key>Title</key>
+			<string>Status Message</string>
+			<key>prefix Only</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Set</key>
+	<string>Status Includes</string>
+</dict>
+</plist>
