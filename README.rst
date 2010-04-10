@@ -7,7 +7,8 @@ iTunesExtras
 Adds the following message tokens to Adium:
 
 %_discNumber
-    The disc number of the current iTunes track.
+    The disc number of the current iTunes track, or "0" if no disc number is 
+    specified.
 
 %_rating
     The rating of the current iTunes track, as Unicode filled or empty stars 
