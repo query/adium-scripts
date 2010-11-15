@@ -2,7 +2,7 @@ on substitute()
 	set stars to ""
 	
 	tell application "System Events"
-		if application process "iTunes" exists then
+		if ((application processes whose bundle identifier is "com.apple.iTunes") count) is greater than 0 then
 			tell application "iTunes"
 				set currentRating to (rating of current track) div 20
 			end tell
