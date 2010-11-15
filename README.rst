@@ -1,5 +1,5 @@
 AppleScript add-ons for the `Adium <http://www.adium.im/>`_ instant messaging 
-client.  Tested to work with the Adium 1.4 beta series.  All scripts here are 
+client.  Tested to work with the Adium 1.4 release.  All scripts here are 
 released into the public domain.
 
 ============
@@ -31,7 +31,9 @@ Returns the message or autoreply text of a saved status, given its title
 (matches are performed case-insensitively).  If no status exists with the 
 specified title, or the requested property is not specified for the included 
 status, all of these tokens will give no output.  Further substitution of 
-tokens is not done within included text.  Rich text formatting may be lost.
+tokens is performed within included text, so including a status message with 
+"%_track" will output the current iTunes track instead of simply displaying a 
+literal "%_track".  Rich text formatting may be lost.
 
 ``%_includeAutoreply{`` *statusTitle* ``}``
     The autoreply text of the status with the given title.
