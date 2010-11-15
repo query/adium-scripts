@@ -9,5 +9,3 @@ on substitute()
 	
 	return ""
 end substitute
-
-substitute()
